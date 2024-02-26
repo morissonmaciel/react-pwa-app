@@ -1,10 +1,11 @@
 import React from "react";
+import { RootContainer } from "./App.styled";
 
 function App() {
   return (
-    <div>
+    <RootContainer>
       <h1>Hello, World!</h1>
-    </div>
+    </RootContainer>
   );
 }
 
